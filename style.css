@@ -61,15 +61,21 @@ padding-top: 1%;
 margin-top: 3%;
 width: 901px;
 height: 700px;
-position: relative;
 margin-left: 17%;
 font-size: larger;
 
 
 }
-.secOneSub{
+.sectionOne{
     display: flex;
     flex-direction: column;
+    background-image: url("images/Group\ 14.png");
+    background-repeat:space;
+}
+.secOneSub{
+    position: relative;
+    left: 10%;
+    top: 10%;
 }
 #secOneSubOne{
 color: #0B0223;
@@ -95,12 +101,18 @@ font-family: Work Sans;
 font-size: 20px;
 font-weight: 500;
 padding: 25px;
+position: relative;
+left: 10%;
+top: 10%;
+}
 }
 .secOneSubThree div{
     padding: 5px;
 }
 .secOneSubFour{
-    margin-left: 1%;  
+    position: relative;
+    left: 10%;
+    top: 10%;
 }
 .secOneSubFour button{
 display: inline-flex;
@@ -127,12 +139,11 @@ border: black;
 }
 
 .sectionOneRight{
-    width: 500px;
+width: 500px;
 height: 300px;
-flex-shrink: 0;
 position: relative;
 left: 90%;
-bottom: 55%;
+bottom: 45%;
 }
 .sectionTwo{
 position: relative;
@@ -363,11 +374,16 @@ gap: 60px;
     *{
         max-width:fit-content;
     }
-  
+    .sectionOneLeft{
+        position: relative;
+        right: 15%;
+    }
     .secOneSub{
         position: relative;
         top: 200px;
+        margin-right: 100px;
     }
+    
     .sectionTwo{
         position: relative;
         top: 300px;
@@ -395,6 +411,9 @@ gap: 60px;
         position: relative;
         right: 150px;
         
+    }
+    .sectionOne{
+        background-image: none;
     }
 
     .navTwoSub{
@@ -566,5 +585,27 @@ gap: 60px;
     #linkedin{
         margin-left: 70px;
     }
-  
   }
+/* for tablets */
+  /* @media screen and (max-width: 768px) {
+
+    .navOne{
+        position: relative;
+        bottom: 20px;
+        right: 10px;
+    }
+    .navTwo{
+        position: relative;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .navTwoSub{
+       
+        position: relative;
+        right: 10%;
+    }
+  } */
+
