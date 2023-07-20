@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    max-width: 100%;
+}
+nav{
+text-align: center;
+font-family: Work Sans;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 1920px;
+height: 130px;
+display: flex;
+justify-content: space-around;
+padding-top: 1%;
+}
+.navOne{
+    display: grid;
+    grid-template-columns: repeat(2, 90px);
+    font-size: 25px;
+
+}
+.navOne img{
+    max-width: 60px;
+    max-height: 30px;
+    margin-top: 40px;
+}
+.navTwo img{
+    max-width: 80px;
+    max-height: 50px;
+}
+.navTwo{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.navTwo a{
+    text-decoration: none;
+}
+.navTwoSub{
+    display: flex;
+    background-color: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 20px;
+    justify-content: center;
+    padding: 5%;
+    border-radius: 8px;
+    position: relative;
+    bottom: 20px;
+
+}
+.navTwoSub img{
+    position: relative;
+    top: -12px;
+}
+#titleLogo{
+    color: #FF42A5 ;
+
+}
+.sectionOne{
+margin-top: 3%;
+width: 901px;
+height: 700px;
+position: relative;
+margin-left: 17%;
+font-size: larger;
+
+
+}
+.secOneSub{
+    display: flex;
+    flex-direction: column;
+}
+#secOneSubOne{
+color: #0B0223;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+#secOneSubtwo{
+
+font-family: Work Sans;
+font-size: 65px;
+font-weight: 800;
+text-transform: uppercase;
+color: #F948B2;
+background-clip: text;
+}
+
+.secOneSubThree{    
+color:  linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+padding: 25px;
+}
+.secOneSubThree div{
+    padding: 5px;
+}
+.secOneSubFour{
+    margin-left: 1%;  
+}
+.secOneSubFour button{
+display: inline-flex;
+padding: 15px 30px;
+align-items: flex-start;
+border-radius: 40px;
+border: black;
+}
+#signIn{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #F948B2;
+}
+#goRouge{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #4EC5F7;
+}
+
+.sectionOneRight{
+    width: 500px;
+height: 300px;
+flex-shrink: 0;
+position: relative;
+left: 90%;
+bottom: 55%;
+}
+.sectionTwo{
+position: relative;
+margin-left: 17%;
+font-size: larger;
+left: 4%;
+margin-top: -10%;
+}
+.secTwoHead{
+color: #0B0223;
+font-family: Work Sans;
+font-weight: 700;
+position: relative; 
+left: 25%;
+margin-bottom: 6%;
+}
+.secTwoBox{
+    display: grid;
+    grid-template-columns: repeat(4, 18%);
+    gap: 15px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.secTwoBox1:hover{
+    filter: brightness(0.6);   
+}
+.secTwoBox2:hover{
+    filter: brightness(0.6);  
+}
+.secTwoBox3:hover{
+    filter: brightness(0.6);   
+}
+.secTwoBox4:hover{
+    filter: brightness(0.6);  
+}
+.specialText{
+    color: rgb(195, 105, 195);
+}
+#secTwoSubTwo{
+    font-weight: 400;
+}
+#secTwoSubOne{
+    font-weight: 700;
+    font-size: 35px;
+}
+.secTwoBox img{
+width: 320px;
+height: 300px;
+}
+.sectionThree{
+    margin-top: 3%;
+    width: 901px;
+    height: 650px;
+    position: relative;
+    margin-left: 15%;
+    font-size: larger;
+    display: flex;
+}
+#signIn:hover{
+    background-color: white;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+}
+#goRouge:hover{
+    background-color: white;
+    color:#4EC5F7;
+    border: 1px solid #4EC5F7;
+}
+.secThreeTexts{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    left: 20%;
+    text-align: right;
+    margin-top: 15%;
+
+}
+.secThreeSubOne{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+#secThreeImgOne{
+    width: 420px;
+    height: 650px;
+    position: relative;
+    left: 85%;
+}
+#secThreeImgTwo{
+width: 300px;
+height: 350px;
+position: relative;
+bottom: 55%;
+left: 50%;
+}
+.sectionFour{
+    width: 901px;
+    height: 650px;
+    position: relative;
+    left: 20%;
+    bottom: -200px;
+}
+.navTwo div:hover{
+    color: #FF42A5;
+}
+
+#specialTextThree{
+    font-weight: 300;
+}
+.sectionFourBox{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    justify-self: center;
+}
+.sectionFour img{
+width: 60px;
+height: 60px;
+}
+.box{
+width: 220px;
+height: 60px;
+border-radius: 50px;
+display:flex;
+color: #0B0223;
+font-family: Work Sans;
+font-size: 17px;
+font-weight: 400;
+
+}
+ .box p{
+position: relative;
+top: 10%;
+left: 3%;
+padding: 1px;
+} 
+.secondLine{
+    position: relative;
+    left: 50%;
+}
+.box:hover{
+   border: 1px solid #FF42A5;
+   color: #F948B2;
+}
+footer{
+width: 1920px;
+height: 636px;
+flex-shrink: 0;
+background-color: #0B0223;
+color: white;
+}
+.footerOne{
+display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+color: white;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+left: 25%;
+}
+.foot{
+    color: white;
+}
+
+.footerLogo{
+    padding-top: 2%;
+    position: relative;
+    left: 40%;
+}
+.footerLogo img{
+    margin-top: 50px;
+}
+.footerTwo img{
+    width: 40px;
+    height: 40px;
+    padding: 2%;
+    position: relative;
+    left: 35%;
+}
+.footerTwo img:hover{
+    width: 50px;
+    height: 45px;
+}
+.lastSection{
+    color: white;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.secondLastSection{
+color: white;
+display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+
+}
+.secondLastSection a{
+    text-decoration: none;
+}
+.lastSection a{
+    color: white;
+}
+.lastSection a:hover{
+    background-color: white;
+    color:#F948B2;
+    border-radius: 10px;
+}
+/* for mobile */
+@media screen and (max-width: 425px) {
+    *{
+        max-width:fit-content;
+    }
+  
+    .secOneSub{
+        position: relative;
+        top: 200px;
+    }
+    .sectionTwo{
+        position: relative;
+        top: 300px;
+        
+    }
+    .secTwoHead{
+        position: static;
+        right: 500px;
+    }
+    .navOne{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 60%;
+        margin-bottom: 40px;
+    }
+    .navOne{
+        position: relative;
+        bottom: 20px;
+    }
+    .navTwo{
+        display: flex;
+        flex-direction: column;
+        top: 50px;
+        margin-top: 40px;
+        position: relative;
+        right: 150px;
+        
+    }
+
+    .navTwoSub{
+        position: relative;
+        right: 60px;
+    }
+    .sectionOneRight img{
+        position: relative;
+        top: 600px;
+        right: 500px;
+        width: 400px;
+
+     }
+     .sub{
+        position: relative;
+        top: 200px;
+     }
+     .secTwoBox{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+     }
+     .sectionThree{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 250px;
+        right: 120px;
+     }
+     .secThreeTexts{
+        position: relative;
+      
+     }
+     .secThreeSubOne{
+        position: relative;
+        left: 50px;
+     }
+     #specialTextThree{
+        position: relative;
+        right: 35px;
+        font-size: 80%;
+        text-align: center;
+     }
+     .sectionThree img{
+        width: 250px;
+        position: relative;
+        top: 50px;
+        right: 140px;
+     }
+     .sectionFour{
+       max-width: 100px;
+       max-height: 100px;
+       font-weight: 300;
+       font-size: smaller;
+       padding: 0;
+       margin: 0;
+        position: relative;
+        top: 400px;
+        left: 90px;
+     }
+     .box{
+        border-radius: 40px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+        justify-content: center;
+        width: 90%;
+        height: 60%;
+        }
+        .box img{
+            width: 60px;
+            height: 55%;
+            position: relative;
+            left: 5px;
+            top: 2px;
+        }
+       .box p{
+        position: relative;
+        top: -12px;
+        font-size: 85%;
+        left: -12px;
+        
+       }
+      .sectionFourBox{
+        position: relative;
+        top: 100px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2px;
+        right: 80px;
+        
+     } 
+     footer{
+        position: relative;
+        top: 700px;
+        width: auto;
+        height: auto;
+    
+     }
+     .footerLogo img{
+        position: relative;
+        right: 310px;
+     }
+
+     .footerLogo h1{
+    color: white;
+    position: relative;
+    right: 300px;
+
+     }
+     .footerOne{
+        width: 40%;
+        display: grid;
+        grid-template-columns:repeat(3, 1fr) ;
+     }
+     .foot{
+        position: relative;
+        right: 70px;
+        bottom: 30px;
+     }
+     .footerTwo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+     }
+     .footerTwo img{
+        margin: 30px;
+     }
+     .secondLastSection{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: small;
+        font-weight: 400;
+        gap: 45px;
+        justify-content: space-around;
+     }
+     #last{
+        font-size: small;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+     }
+     #secTwoSubTwo{
+        font-size: 90%;
+        padding-right: 50px;
+     }
+     .captionText{
+        font-size: 90%;
+        text-align: center;
+        padding-right: 50px;
+     }
+     .secOneSubThree{
+        position: relative;
+        right: 10%;
+     }
+     #secThreeImgOne img{
+        width: 500px;
+        height: 350px;
+        position: relative;
+        right: 250px;
+      
+    }
+    #secThreeImgTwo img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 150px;
+    
+    }
+    #linkedin{
+        margin-left: 70px;
+    }
+  
+  }
